@@ -21,15 +21,4 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-    const sabaText = document.querySelector('.navbar h2');
-
-    sabaText.addEventListener('mouseenter', function() {
-        this.classList.add('rotate-animation');
-    });
-
-    sabaText.addEventListener('animationend', function() {
-        this.classList.remove('rotate-animation');
-    }, {once: true});
-});
 
